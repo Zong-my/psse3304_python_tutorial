@@ -1,0 +1,353 @@
+
+ENGLAND 39 BUS SYSTEM
+LOAD LEVEL
+
+The Saved Case in file ./Demo_Models/IEEE39/IEEE39.sav was saved on THU, OCT 17 2024  14:56
+
+The following option settings are changed to the settings contained in the Saved Case File:
+
+** BASE FREQUENCY option setting set to 60.0
+
+ENGLAND 39 BUS SYSTEM
+LOAD LEVEL
+
+The Saved Case in file ./Demo_Models/IEEE39/IEEE39.sav was saved on THU, OCT 17 2024  14:56
+
+No power flow data changed for load "1" at bus 3 [ LBUS03     345.00]
+
+No power flow data changed for load "1" at bus 12 [ LBUS12     154.00]
+
+No power flow data changed for load "1" at bus 15 [ LBUS15     345.00]
+
+No power flow data changed for load "1" at bus 16 [ LBUS16     345.00]
+
+No power flow data changed for load "1" at bus 18 [ LBUS18     345.00]
+
+No power flow data changed for load "1" at bus 20 [ LBUS20     345.00]
+
+No power flow data changed for load "1" at bus 21 [ LBUS21     345.00]
+
+No power flow data changed for load "1" at bus 23 [ LBUS23     345.00]
+
+No power flow data changed for load "1" at bus 24 [ LBUS24     345.00]
+
+No power flow data changed for load "1" at bus 25 [ LBUS25     345.00]
+
+No power flow data changed for load "1" at bus 26 [ LBUS26     345.00]
+
+No power flow data changed for load "1" at bus 27 [ LBUS27     345.00]
+
+No power flow data changed for load "1" at bus 28 [ LBUS28     345.00]
+
+No power flow data changed for load "1" at bus 29 [ LBUS29     345.00]
+
+No power flow data changed for load "1" at bus 31 [ GBUS31     22.000]
+
+No power flow data changed for load "1" at bus 39 [ GBUS39     345.00]
+
+No power flow data changed for load "1" at bus 504 [ LBUS504    345.00]
+
+No power flow data changed for load "1" at bus 504 [ LBUS504    345.00]
+
+Power flow data changed for load "1" at bus 504 [ LBUS504    345.00]:
+X--ORIGINAL--X  X-NEW VALUE--X  DATA ITEM
+   203.849         101.925      IP
+
+No power flow data changed for load "1" at bus 507 [ LBUS507    345.00]
+
+No power flow data changed for load "1" at bus 507 [ LBUS507    345.00]
+
+Power flow data changed for load "1" at bus 507 [ LBUS507    345.00]:
+X--ORIGINAL--X  X-NEW VALUE--X  DATA ITEM
+   96.3270         48.1640      IP
+
+No power flow data changed for load "1" at bus 508 [ LBUS508    345.00]
+
+No power flow data changed for load "1" at bus 508 [ LBUS508    345.00]
+
+Power flow data changed for load "1" at bus 508 [ LBUS508    345.00]:
+X--ORIGINAL--X  X-NEW VALUE--X  DATA ITEM
+   216.388         108.194      IP
+
+No power flow data changed for load "1" at bus 518 [ LBUS518    345.00]
+
+No power flow data changed for load "1" at bus 518 [ LBUS518    345.00]
+
+Power flow data changed for load "1" at bus 518 [ LBUS518    345.00]:
+X--ORIGINAL--X  X-NEW VALUE--X  DATA ITEM
+   62.8570         36.6000      IP
+
+Power flow data changed for machine "1" at bus 30 [ GBUS30     22.000]:
+X--ORIGINAL--X  X-NEW VALUE--X  DATA ITEM
+   9999.00         250.000      PT
+
+Power flow data changed for machine "1" at bus 31 [ GBUS31     22.000]:
+X--ORIGINAL--X  X-NEW VALUE--X  DATA ITEM
+   9999.00         686.217      PT
+
+Power flow data changed for machine "1" at bus 32 [ GBUS32     22.000]:
+X--ORIGINAL--X  X-NEW VALUE--X  DATA ITEM
+   9999.00         650.000      PT
+
+Power flow data changed for machine "1" at bus 33 [ GBUS33     22.000]:
+X--ORIGINAL--X  X-NEW VALUE--X  DATA ITEM
+   9999.00         632.000      PT
+
+Power flow data changed for machine "1" at bus 34 [ GBUS34     22.000]:
+X--ORIGINAL--X  X-NEW VALUE--X  DATA ITEM
+   9999.00         508.000      PT
+
+Power flow data changed for machine "1" at bus 35 [ GBUS35     22.000]:
+X--ORIGINAL--X  X-NEW VALUE--X  DATA ITEM
+   9999.00         650.000      PT
+
+Power flow data changed for machine "1" at bus 36 [ GBUS36     22.000]:
+X--ORIGINAL--X  X-NEW VALUE--X  DATA ITEM
+   9999.00         560.000      PT
+
+Power flow data changed for machine "1" at bus 37 [ GBUS37     22.000]:
+X--ORIGINAL--X  X-NEW VALUE--X  DATA ITEM
+   9999.00         540.000      PT
+
+Power flow data changed for machine "1" at bus 38 [ GBUS38     22.000]:
+X--ORIGINAL--X  X-NEW VALUE--X  DATA ITEM
+   9999.00         830.000      PT
+
+Power flow data changed for machine "1" at bus 39 [ GBUS39     345.00]:
+X--ORIGINAL--X  X-NEW VALUE--X  DATA ITEM
+   9999.00         1000.00      PT
+
+Ordering network...
+Diagonals = 42   Off-diagonals = 70   Maximum size = 98
+
+ ITER       DELTAP      BUS         DELTAQ      BUS        DELTA/V/      BUS       DELTAANG      BUS
+  0         1.0439(      508   )    0.0031(        8   )
+                                                            0.00799(      507   )   0.09928(      518   )
+  1         0.0510(      508   )    0.1246(        6   )
+                                                            0.00169(        6   )   0.00687(       28   )
+  2         0.0067(      508   )    0.0007(        6   )
+                                                            0.00003(      508   )   0.00101(       20   )
+  3         0.0001(      508   )    0.0000(        6   )
+
+
+Reached tolerance in 3 iterations
+
+Largest mismatch:      0.01 MW     -0.00 Mvar      0.01 MVA at bus 508 [ LBUS508    345.00]
+System total absolute mismatch:                    0.06 MVA
+
+SWING BUS SUMMARY:
+  BUS# X-- NAME --X BASKV      PGEN     PMAX    PMIN      QGEN     QMAX    QMIN
+    31  GBUS31     22.000     417.2    686.2 -9999.0     226.0   9900.0 -9999.0
+
+Generator conversion completed using ZSORCE
+
+28 loads converted during this step
+
+28 of 28 loads converted
+Diagonals = 43   Off-diagonals = 71   Maximum size = 100
+
+43 diagonal and 71 off-diagonal elements
+
+ITER DELTAV/TOL X-------- AT BUS ---------X  REAL(DELTAV)  IMAG(DELTAV)
+   1     0.528     508 [ LBUS508    345.00]   -0.1022E-05   -0.5183E-05
+
+Reached tolerance in 1 iterations
+
+Largest mismatch:      0.00 MW      0.00 Mvar      0.00 MVA at bus 508 [ LBUS508    345.00]
+System total absolute mismatch:                    0.02 MVA
+Out of file data--switch to terminal input mode
+
+Generator models use:
+ CONS        1-   114
+ STATES      1-    50
+
+Excitation System models use:
+ CONS      115-   226
+ STATES     51-    82
+ VARS        1-     8
+
+Turbine Governor models use:
+ CONS      227-   311
+ STATES     83-   111
+ VARS        9-    17
+
+Wind Generator models use:
+ CONS      312-   320
+ STATES    112-   114
+ VARS       18-    20
+
+Wind Electrical models use:
+ CONS      321-   343
+ STATES    115-   124
+ VARS       21-    24
+ ICONS       1-     4
+
+
+SUMMARY OF MODELS READ:
+
+GENS:  GENROU           GENCLS
+          8                1
+
+EXSYS: IEEET1
+          8
+
+GOVS:  TGOV1            GAST             IEESGO           IEEEG1
+          2                1                2                2
+
+WGENS: WT4G1
+          1
+
+WELEC: WT4E1
+          1
+
+NEXT AVAILABLE ADDRESSES ARE:
+   CON  STATE    VAR   ICON
+   344    125     25      5
+
+Only PSS/E supplied models in case. Compilation is not required
+
+GENERATOR Model "GENROU" at bus 30 [ GBUS30     22.000] machine "1":
+ CON(J+4) [CON(5) changed from 6.05 to 1.21 [H, Inertia]
+
+GENERATOR Model "GENROU" at bus 31 [ GBUS31     22.000] machine "1":
+ CON(J+4) [CON(19) changed from 3.41 to 0.682 [H, Inertia]
+
+GENERATOR Model "GENROU" at bus 32 [ GBUS32     22.000] machine "1":
+ CON(J+4) [CON(33) changed from 6.05 to 1.21 [H, Inertia]
+
+GENERATOR Model "GENROU" at bus 34 [ GBUS34     22.000] machine "1":
+ CON(J+4) [CON(47) changed from 3.41 to 0.682 [H, Inertia]
+
+GENERATOR Model "GENROU" at bus 35 [ GBUS35     22.000] machine "1":
+ CON(J+4) [CON(61) changed from 5.016 to 1.0032 [H, Inertia]
+
+GENERATOR Model "GENROU" at bus 36 [ GBUS36     22.000] machine "1":
+ CON(J+4) [CON(75) changed from 3.141 to 0.6282 [H, Inertia]
+
+GENERATOR Model "GENROU" at bus 37 [ GBUS37     22.000] machine "1":
+ CON(J+4) [CON(89) changed from 3.141 to 0.6282 [H, Inertia]
+
+GENERATOR Model "GENROU" at bus 38 [ GBUS38     22.000] machine "1":
+ CON(J+4) [CON(103) changed from 5.32 to 1.064 [H, Inertia]
+
+GENERATOR Model "GENCLS" at bus 39 [ GBUS39     345.00] machine "1":
+ CON(J) [CON(113) changed from 500.0 to 100.0 [Inertia H]
+
+10 Output channels have been added
+
+
+Next available addresses are:
+  CHANNEL   VAR   ICON
+      11     25      5
+
+10 Output channels have been added
+
+
+Next available addresses are:
+  CHANNEL   VAR   ICON
+      21     25      5
+
+10 Output channels have been added
+
+
+Next available addresses are:
+  CHANNEL   VAR   ICON
+      31     25      5
+
+43 Output channels have been added
+
+
+Next available addresses are:
+  CHANNEL   VAR   ICON
+      74     25      5
+
+43 Output channels have been added
+
+
+Next available addresses are:
+  CHANNEL   VAR   ICON
+     117     68     48
+
+86 Output channels have been added
+
+
+Next available addresses are:
+  CHANNEL   VAR   ICON
+     203    154     91
+
+100 Output channels have been added
+
+
+Next available addresses are:
+  CHANNEL   VAR   ICON
+     303    254    391
+
+200 Output channels have been added
+
+
+Next available addresses are:
+  CHANNEL   VAR   ICON
+     503    454    691
+
+28 Output channels have been added
+
+
+Next available addresses are:
+  CHANNEL   VAR   ICON
+     531    454    691
+
+28 Output channels have been added
+
+
+Next available addresses are:
+  CHANNEL   VAR   ICON
+     559    454    691
+
+43 diagonal and 71 off-diagonal elements
+
+    PTI INTERACTIVE POWER SYSTEM SIMULATOR--PSS(R)E     SAT, JAN 11 2025  16:37
+ENGLAND 39 BUS SYSTEM
+LOAD LEVEL
+
+INITIAL CONDITION LOAD FLOW USED 1 ITERATIONS
+
+----------------------------- MACHINE INITIAL CONDITIONS -----------------------------
+  BUS# X-- NAME --X BASKV ID  ETERM   EFD    POWER    VARS   P.F.  ANGLE   ID     IQ
+    30  GBUS30     22.000 1  1.0475 2.9884  250.00  176.52 0.8169  28.02 0.8889 0.3979
+    31  GBUS31     22.000 1  0.9820 2.2490  417.22  226.05 0.8792  32.65 0.6912 0.3816
+    32  GBUS32     22.000 1  0.9831 2.5192  650.01  246.29 0.9351  44.87 0.8123 0.4409
+    33  GBUS33     22.000 1  0.9972 0.0000  632.00  131.68 0.9790   4.73 0.1886 0.9054
+    34  GBUS34     22.000 1  1.0123 2.2768  508.00  175.88 0.9450  42.66 0.7352 0.4583
+    35  GBUS35     22.000 1  1.0493 2.4278  650.00  236.91 0.9395  43.97 0.6992 0.4402
+    36  GBUS36     22.000 1  1.0635 2.2752  560.00  115.07 0.9795  50.10 0.6490 0.4922
+    37  GBUS37     22.000 1  1.0278 1.9735  540.00   21.69 0.9992  51.54 0.6173 0.5037
+    38  GBUS38     22.000 1  1.0265 1.7408  830.00   39.92 0.9988  50.25 0.4949 0.4997
+    39  GBUS39     345.00 1  1.0300 1.0372 1000.01  124.28 0.9924  -6.09 1.6597 9.6417
+
+INITIAL CONDITIONS CHECK O.K.
+
+Channel output file is "./Outputs/IEEE39/circuit_short\psse3304_IEEE39_le100.0_zip40.0-0.0-60.0_rr0.0_hi0.2-circuit_short-frmbus1_tobus2-All_30s.out"
+
+Channel output file is "./Outputs/IEEE39/circuit_short\psse3304_IEEE39_le100.0_zip40.0-0.0-60.0_rr0.0_hi0.2-circuit_short-frmbus1_tobus2-All_30s.out"
+
+*** Shunt " 1" at bus 1 [ LBUS01     345.00] (  0.0000,-0.20000E+12) added ***
+
+Channel output file is "./Outputs/IEEE39/circuit_short\psse3304_IEEE39_le100.0_zip40.0-0.0-60.0_rr0.0_hi0.2-circuit_short-frmbus1_tobus2-All_30s.out"
+
+43 diagonal and 71 off-diagonal elements
+
+*** Status of circuit "1" from 1 [ LBUS01     345.00] to 2 [ LBUS02     345.00] is set to out-of-service ***
+
+*** Shunt " 1" at bus 1 [ LBUS01     345.00] (  0.0000,-0.20000E+12) deleted ***
+
+Channel output file is "./Outputs/IEEE39/circuit_short\psse3304_IEEE39_le100.0_zip40.0-0.0-60.0_rr0.0_hi0.2-circuit_short-frmbus1_tobus2-All_30s.out"
+
+43 diagonal and 69 off-diagonal elements
+
+*** Status of circuit "1" from 1 [ LBUS01     345.00] to 2 [ LBUS02     345.00] is set to in-service ***
+
+Channel output file is "./Outputs/IEEE39/circuit_short\psse3304_IEEE39_le100.0_zip40.0-0.0-60.0_rr0.0_hi0.2-circuit_short-frmbus1_tobus2-All_30s.out"
+
+43 diagonal and 71 off-diagonal elements
+
+Deleted all Plot Channels and reset Next Channel (NXTCHN) index to 1
